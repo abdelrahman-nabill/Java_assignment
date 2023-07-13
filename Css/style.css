@@ -1,0 +1,30 @@
+body{
+background-image: url(../images/thumb-1920-26102.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+min-height: 100vh;
+
+}
+.container h1{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    color: #09c !important;
+}
+.container .card-body > p{
+    color: rgb(155, 209, 8)!important;
+    font-size: 35px !important;
+    font-weight: 600;
+}
+
+@media all and (max-width:575px) {
+    .container h1{
+        font-size: 40px;
+        
+    }
+    .container .card-body > p{
+       font-size: 20px !important;
+
+    }
+}
